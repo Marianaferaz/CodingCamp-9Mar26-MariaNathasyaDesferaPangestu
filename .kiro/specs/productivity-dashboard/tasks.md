@@ -82,12 +82,12 @@ The implementation proceeds in phases: project setup, core infrastructure (Stora
     - **Property 9: Timer Reset Idempotence**
     - **Validates: Requirements 3.2, 3.3, 3.4, 3.6**
 
-- [ ] 5. Checkpoint - Verify greeting and timer functionality
+- [~] 5. Checkpoint - Verify greeting and timer functionality
   - Ensure greeting updates every second with correct time-based message
   - Ensure timer counts down correctly and can be started, stopped, and reset
   - Ensure all tests pass, ask the user if questions arise
 
-- [ ] 6. Implement Task List component
+- [~] 6. Implement Task List component
   - [ ] 6.1 Create TaskList module with CRUD operations
     - Implement task state with array of task objects
     - Implement `addTask(text)` to create new task with ID, text, completed, createdAt
@@ -129,7 +129,7 @@ The implementation proceeds in phases: project setup, core infrastructure (Stora
     - **Property 18: Sort Preference Persistence**
     - **Validates: Requirements 5.2, 5.3, 5.4**
 
-- [ ] 7. Implement Quick Links component
+- [~] 7. Implement Quick Links component
   - [ ] 7.1 Create QuickLinks module with link management
     - Implement links state with array of link objects
     - Implement `isValidUrl(url)` to validate HTTP/HTTPS URLs
@@ -153,7 +153,7 @@ The implementation proceeds in phases: project setup, core infrastructure (Stora
     - **Property 22: URL Validation Correctness**
     - **Validates: Requirements 6.1, 6.3, 6.4, 6.5, 6.6**
 
-- [ ] 8. Implement Theme Manager component
+- [~] 8. Implement Theme Manager component
   - [ ] 8.1 Create ThemeManager module with light/dark mode
     - Implement theme state with current theme value
     - Implement `applyTheme(theme)` to set data-theme attribute on document
@@ -168,14 +168,14 @@ The implementation proceeds in phases: project setup, core infrastructure (Stora
     - **Property 24: Theme Preference Persistence**
     - **Validates: Requirements 7.2, 7.3, 7.4, 7.5**
 
-- [ ] 9. Checkpoint - Verify all components work independently
+- [~] 9. Checkpoint - Verify all components work independently
   - Ensure tasks can be added, edited, completed, deleted, and sorted
   - Ensure quick links can be added, deleted, and opened in new tabs
   - Ensure theme toggle switches between light and dark modes
   - Ensure all data persists across page reloads
   - Ensure all tests pass, ask the user if questions arise
 
-- [ ] 10. Implement CSS styling
+- [~] 10. Implement CSS styling
   - [ ] 10.1 Create base styles and layout
     - Define CSS custom properties for light theme colors
     - Define CSS custom properties for dark theme colors using [data-theme="dark"]
@@ -200,7 +200,7 @@ The implementation proceeds in phases: project setup, core infrastructure (Stora
     - Ensure minimal, clean aesthetic without clutter
     - _Requirements: 9.2, 12.5_
 
-- [ ] 11. Create App Controller and integrate components
+- [~] 11. Create App Controller and integrate components
   - [ ] 11.1 Create main App object in app.js
     - Implement `App.init()` to initialize all components in correct order
     - Initialize StorageService first
@@ -216,7 +216,7 @@ The implementation proceeds in phases: project setup, core infrastructure (Stora
     - Verify no component initialization errors in console
     - _Requirements: 8.1, 8.2, 8.3, 8.4_
 
-- [ ] 12. Performance optimization and browser compatibility
+- [~] 12. Performance optimization and browser compatibility
   - [ ] 12.1 Optimize performance
     - Ensure initial page load completes within 2 seconds
     - Verify timer updates don't cause visible lag or jitter
